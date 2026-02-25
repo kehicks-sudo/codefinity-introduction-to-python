@@ -1,9 +1,9 @@
-a = "two"
-b = a
-c = a
-print(c, end=" ")
-c = "one"
-b = c
-a = "three"
-print(a, end=" ")
-print(c)
+x = "1"
+print("and a", end=" ")
+print(x)
+x = "2"
+print("and a", end=" ")
+print(x)
+x = "3"
+print("and a", end=" ")
+print(x)
