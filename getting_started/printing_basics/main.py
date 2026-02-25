@@ -1,2 +1,5 @@
-print("Welcome to the Grocery") 
-print("Store")
+print("Kansas State University")
+print("Manhattan ", end="")
+print("KS", end=" ")
+print("66506")
+print("KSU!\nGo Cats!")
