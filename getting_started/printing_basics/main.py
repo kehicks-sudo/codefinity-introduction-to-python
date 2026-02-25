@@ -1,9 +1,12 @@
-x = "1"
-print("and a", end=" ")
-print(x)
-x = "2"
-print("and a", end=" ")
-print(x)
-x = "3"
-print("and a", end=" ")
-print(x)
+a = "abba"
+b = "banana"
+c = "bandana"
+
+# more code goes here
+temp = a
+a = c
+c = temp
+
+print(c, end=" ")
+print(b, end=" ")
+print(a)
