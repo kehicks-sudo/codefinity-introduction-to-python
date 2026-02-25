@@ -1,6 +1,4 @@
-print("*")
-print("*")
-print("*")
-print("*", end=" ")
-print("*", end=" ")
-print("*", end=" ")
+a = "Output 1"
+print(a)
+a = "Output 2"
+print(a)
