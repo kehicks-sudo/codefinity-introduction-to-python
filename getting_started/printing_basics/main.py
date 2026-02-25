@@ -1,4 +1,6 @@
-a = "Output 1"
-print(a)
-a = "Output 2"
-print(a)
+x = "Hello"
+y = x
+print(y, end=" ")
+x = "World"
+print(x, end=", ")
+print(y)
