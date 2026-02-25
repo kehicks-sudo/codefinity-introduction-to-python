@@ -1,12 +1,12 @@
-a = "abba"
-b = "banana"
-c = "bandana"
+# Initial values
+a = 5
+b = 10
 
-# more code goes here
+print(f"Before swapping: a = {a}, b = {b}")
+
+# Swapping logic using a temporary variable
 temp = a
-a = c
-c = temp
+a = b
+b = temp
 
-print(c, end=" ")
-print(b, end=" ")
-print(a)
+print(f"After swapping: a = {a}, b = {b}")
