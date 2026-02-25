@@ -1,12 +1,6 @@
-# Initial values
-a = 5
-b = 10
-
-print(f"Before swapping: a = {a}, b = {b}")
-
-# Swapping logic using a temporary variable
-temp = a
-a = b
-b = temp
-
-print(f"After swapping: a = {a}, b = {b}")
+x = 13
+z = "5"
+y = int(z)
+var = (x + y) % y * y - x
+var = var / 2
+print(var)
