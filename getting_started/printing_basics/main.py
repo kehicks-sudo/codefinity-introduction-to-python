@@ -1,9 +1,6 @@
-a = 5
-b = 10
-c = 15
-x = b > a and c < b or (not (a + b > c))
-y = b + a >= c or c / a > b / a
-z = c - b != a and not c % a == 0
+a = int(input("Enter an integer: "))
+b = int(input("Enter an integer: "))
+c = int(input("Enter an integer: "))
+d = int(input("Enter an integer: "))
+x = a < b and a < c and a < d and b < d and c < d
 print(x)
-print(y)
-print(z)
