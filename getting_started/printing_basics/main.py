@@ -1,6 +1,7 @@
-x = 13
-z = "5"
-y = int(z)
-var = (x + y) % y * y - x
-var = var / 2
-print(var)
+text_one = input("Enter the price of one item: ")
+price = float(text_one)
+text_two = input("Enter the quantity of items: ")
+quantity = int(text_two)
+cost = price * quantity
+print("The total cost is $", end="")
+print(cost)
