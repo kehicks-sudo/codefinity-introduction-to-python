@@ -12,14 +12,14 @@ grocery_inventory = {
 
 eggs_price = grocery_inventory["Eggs"][1]
 if eggs_price > 5:
-    print("Eggs are too expensive, reducing the price by $1")
+    print("Eggs are too expensive, reducing the price by $1.")
     grocery_inventory.pop("Eggs")
     grocery_inventory.update({"Eggs": ("Dairy", 4.50, 30)})
 else:
     print("The price of Eggs is reasonable.")
 
 grocery_inventory.update({"Tomatoes": ("Produce", 1.20, 30)})
-print("Inventory after adding Tomatoes", grocery_inventory)
+print("Inventory after adding Tomatoes:", grocery_inventory)
 
 milk_stock = grocery_inventory["Milk"][2]
 if milk_stock < 10:
